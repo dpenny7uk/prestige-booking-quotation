@@ -1,0 +1,26 @@
+{
+  "name": "prestige-booking-quotation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpenny7uk/prestige-booking-quotation.git"
+  },
+  "keywords": [
+    "booking",
+    "appointment",
+    "scheduler",
+    "quotation",
+    "prestige"
+  ],
+  "author": "Damian Penny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpenny7uk/prestige-booking-quotation/issues"
+  },
+  "homepage": "https://github.com/dpenny7uk/prestige-booking-quotation#readme"
+}

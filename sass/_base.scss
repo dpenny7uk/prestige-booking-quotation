@@ -1,6 +1,6 @@
 // COLOR VARIABLES
-$color-primary: #c69963;
-$color-primary-dark: #B28451;
+$color-primary: #f4954b;
+$color-primary-dark: #A74900;
 
 $color-secondary: #101d2c;
 
@@ -10,9 +10,11 @@ $color-grey-light-2: #aaa;
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
+$color-black: #000;
+
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
-$font-display: 'Josefin Sans', sans-serif;
+$font-display: 'Roboto', sans-serif;
 
 *,
 *::before,
@@ -34,12 +36,9 @@ body {
     line-height: 1.6;
 }
 
-
 .container {
     display: grid;
-    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-    grid-template-columns: 
-        [sidebar-start] 8rem [sidebar-end full-start] 
-        minmax(6rem,1fr) [centre-start] repeat(8, [col-start] minmax(min-content, 14rem)[col-end]) 
-        [centre-end] minmax(6rem,1fr) [full-end];
+    grid-template-rows: 16rem repeat(23, [row-start] minmax(min-content, 8rem)[row-end]);
+    grid-template-columns: 16rem repeat(12, [col-start] minmax(min-content, 19rem)[col-end]);
 }
+

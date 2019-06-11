@@ -1,6 +1,6 @@
 // COLOR VARIABLES
-$color-primary: #f4954b;
-$color-primary-dark: #A74900;
+$color-primary: #85817E;
+$color-primary-dark: #4A4847;
 
 $color-secondary: #101d2c;
 
@@ -13,7 +13,7 @@ $color-grey-dark-2: #6D5D4B;
 $color-black: #000;
 
 // FONT VARIABLES
-$font-primary: 'Nunito', sans-serif;
+$font-primary: 'Roboto', sans-serif;
 $font-display: 'Roboto', sans-serif;
 
 *,
@@ -38,7 +38,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 16rem repeat(23, [row-start] minmax(min-content, 8rem)[row-end]);
-    grid-template-columns: 16rem repeat(12, [col-start] minmax(min-content, 19rem)[col-end]);
+    grid-template-rows: 8rem repeat(24, [row-start] minmax(min-content, 8rem)[row-end]);
+    grid-template-columns: 8rem repeat(11, 19rem);
 }
 
